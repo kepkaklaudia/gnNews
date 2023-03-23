@@ -13,9 +13,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Montserrat', sans-serif;
-    background: #ccc;
+    background: ${({ theme }) => theme.colors.mercury};
     min-height: 80vh;
     margin: 0 auto;
-    color: #ccc;
+    color: ${({ theme }) => theme.colors.grey};
   }
 `;
