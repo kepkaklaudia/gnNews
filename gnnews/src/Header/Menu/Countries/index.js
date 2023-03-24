@@ -1,6 +1,6 @@
 import { nanoid } from "@reduxjs/toolkit";
 import { countriesList } from "./countriesList";
-import { Image, Wrapper, StyledLink } from "./styled";
+import { Image, Wrapper, StyledLink, Name } from "./styled";
 
 export const Country = () => (
   <>
@@ -11,6 +11,7 @@ export const Country = () => (
       >
         <Wrapper>
           <Image src={country.flag} alt="flag" />
+          <Name>{country.name}</Name>
         </Wrapper>
       </StyledLink>
     )}
