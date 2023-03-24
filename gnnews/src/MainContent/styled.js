@@ -7,6 +7,11 @@ export const Wrapper = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   justify-items: center;
+
+  @media (max-width: 700px) {
+    margin-bottom: 120px;
+    margin-top: 135px;
+  }
 `;
 
 export const StyledLink = styled(Link)`
