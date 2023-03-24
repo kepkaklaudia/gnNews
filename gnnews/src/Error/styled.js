@@ -7,3 +7,12 @@ export const Wrapper = styled.div`
   flex-direction: column;
   text-align: center;
 `;
+
+export const Text = styled.p`
+  font-size: 50px;
+  margin-top: 40px;
+
+  @media (max-width: 700px) {
+    font-size: 30px;
+  }
+`;
