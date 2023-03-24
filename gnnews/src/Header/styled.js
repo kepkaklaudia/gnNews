@@ -15,7 +15,7 @@ export const Container = styled.div`
   padding: 10px 40px;
   z-index: 1;
  
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     display: grid;
     grid-tempate-column: 1fr;
     height: 135px;
