@@ -16,7 +16,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-column: 1fr;
     justify-content: center;
-    height: 80px;
+    height: 100px;
     padding: 10px 10px;
   }
 `;
@@ -27,6 +27,6 @@ export const Text = styled.p`
   font-size: 20px;
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 18px;
   }
 `;
