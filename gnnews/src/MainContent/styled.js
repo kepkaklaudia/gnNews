@@ -78,3 +78,15 @@ export const Text = styled.p`
     font-size: 10px;
   }
 `;
+
+export const Heading = styled.h2`
+  font-size: 30px;
+
+  @media (max-width: 700px) {
+  font-size: 20px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 15px;
+  }
+`;
