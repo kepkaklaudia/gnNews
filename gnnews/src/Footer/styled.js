@@ -12,7 +12,7 @@ export const Container = styled.div`
   height: 80px;
   padding: 10px 40px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     display: grid;
     grid-template-column: 1fr;
     justify-content: center;
@@ -26,7 +26,7 @@ export const Text = styled.p`
   margin: 0;
   font-size: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     font-size: 18px;
   }
 `;
