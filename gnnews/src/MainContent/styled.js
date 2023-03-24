@@ -47,3 +47,10 @@ export const StyledLink = styled(Link)`
     color: ${({ theme }) => theme.colors.lemon};
   }
 `;
+
+export const Image = styled.img`
+  aspect-ratio: 3/2;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+`;
