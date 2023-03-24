@@ -23,6 +23,13 @@ export const Container = styled.div`
   }
 `;
 
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export const NavigationLink = styled(NavLink)`
   text-decoration: none;
 `;
