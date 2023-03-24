@@ -25,6 +25,10 @@ export const Wrapper = styled.div`
     filter: brightness(104%);
     transform: scale(1.05);
   }
+
+  @media (max-width: 700px) {
+    padding: 10px 5px; 
+  }
 `;
 
 export const Image = styled.img`
