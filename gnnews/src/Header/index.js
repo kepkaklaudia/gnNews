@@ -7,7 +7,10 @@ export const Header = () => (
     <NavigationLink
       to="/"
     >
-      <Logo src={""} alt="logo" />
+      <Logo
+        src={""}
+        alt="logo"
+      />
     </NavigationLink>
   </Container>
 )
