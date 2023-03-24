@@ -8,14 +8,24 @@ export const Menu = () => {
 
   return (
     <>
-      <StyledButton variant="primary" onClick={() => setShow(true)}>
+      <StyledButton
+        variant="primary"
+        onClick={() => setShow(true)}
+      >
         <Icon>
-        <RxHamburgerMenu />
+          <RxHamburgerMenu />
         </Icon>
       </StyledButton>
-      <StyledOffcanvas as={Offcanvas} show={show} onHide={() => setShow(false)}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title  >Choose country</Offcanvas.Title>
+      <StyledOffcanvas
+        show={show}
+        onHide={() => setShow(false)}
+      >
+        <Offcanvas.Header
+          closeButton
+        >
+          <Offcanvas.Title>
+            Choose country
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body >
         </Offcanvas.Body>
