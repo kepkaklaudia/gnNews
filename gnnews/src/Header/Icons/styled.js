@@ -14,6 +14,10 @@ export const Icon = styled.div`
   @media (max-width: 700px) {
     font-size: 25px;
   }
+
+ &.active{
+    color: ${({ theme }) => theme.colors.lemon};
+  }
 `;
 
 export const Wrapper = styled.div`
