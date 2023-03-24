@@ -1,4 +1,4 @@
-import { Modal } from 'react-bootstrap';
+import { Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Text, Description, Title, StyledLink } from "./styled";
 
 export const Details = ({ show, onHide, article }) => (
@@ -20,16 +20,26 @@ export const Details = ({ show, onHide, article }) => (
       </Text>
       <Description>
         <Text>Author:
-          {article.author}
+          {` ${article.author}`}
         </Text>
         <Text>
-          <StyledLink
-            to={article.url}
-            target="_blank"
-            rel="noopener noreferer"
+          <OverlayTrigger
+            overlay={
+              <Tooltip>
+                {"Open in a new tab"}
+              </Tooltip>
+            }
+            placement="right"
           >
-            Open URL
-          </StyledLink>
+
+            <StyledLink
+              to={article.url}
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              Go to URL
+            </StyledLink>
+          </OverlayTrigger>
         </Text>
       </Description>
     </Modal.Body>
