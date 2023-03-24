@@ -1,5 +1,6 @@
 import { Container, Logo, NavigationLink } from './styled';
 import { Menu } from './Menu';
+import logo from './gnnews.png';
 
 export const Header = () => (
   <Container>
@@ -8,7 +9,7 @@ export const Header = () => (
       to="/"
     >
       <Logo
-        src={""}
+        src={logo}
         alt="logo"
       />
     </NavigationLink>
