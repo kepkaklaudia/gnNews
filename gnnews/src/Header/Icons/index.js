@@ -2,12 +2,13 @@ import { TfiLayoutListThumb, TfiLayoutGrid2 } from "react-icons/tfi";
 import { nanoid } from "@reduxjs/toolkit";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Icon, Wrapper } from "./styled";
-import { useDispatch } from "react-redux";
-import { changeView } from "../../getData/newsSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { changeView, selectView } from "../../getData/newsSlice";
 
 export const Icons = () => {
   const dispatch = useDispatch();
-  
+  const activeView = useSelector(selectView);
+
   return (
     <Wrapper>
       {[
@@ -33,6 +34,7 @@ export const Icons = () => {
         >
           <Icon 
           onClick={() => dispatch(changeView(view))}
+          className={activeView === view && "active"}
           >
             {logo}
           </Icon>
