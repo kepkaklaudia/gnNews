@@ -2,7 +2,7 @@ import { nanoid } from "@reduxjs/toolkit";
 import { countriesList } from "./countriesList";
 import { Image, Wrapper, StyledLink, Name } from "./styled";
 
-export const Country = () => (
+export const Countries = () => (
   <>
     {countriesList.map((country) =>
       <StyledLink
