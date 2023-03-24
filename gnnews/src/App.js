@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 import { selectView } from './getData/newsSlice';
 import { Footer } from './Footer';
 import { Grid, List } from './MainContent';
+import { Error } from './Error';
 
 function App() {
   const view = useSelector(selectView);
@@ -22,7 +23,9 @@ function App() {
             <Route
               path="/country/:id"
               element={
-                view === "list" ? <List /> : <Grid />
+                view === "list" ?
+                  <List /> :
+                  <Grid />
               }
             />
             <Route
@@ -31,6 +34,9 @@ function App() {
                 <Navigate
                   to={"/country/pl"}
                 />}
+            />
+            <Route path='*'
+              element={<Error />}
             />
           </Routes>
           <Header />
