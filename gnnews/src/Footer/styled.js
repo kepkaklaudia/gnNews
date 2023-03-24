@@ -20,3 +20,13 @@ export const Container = styled.div`
     padding: 10px 10px;
   }
 `;
+
+export const Text = styled.p`
+  color: ${({ theme }) => theme.colors.lemon};
+  margin: 0;
+  font-size: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
