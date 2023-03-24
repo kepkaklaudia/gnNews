@@ -11,4 +11,12 @@ export const Container = styled.div`
   min-width: 280px;
   height: 80px;
   padding: 10px 40px;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-column: 1fr;
+    justify-content: center;
+    height: 80px;
+    padding: 10px 10px;
+  }
 `;
