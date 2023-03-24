@@ -59,4 +59,8 @@ export const Info = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  
+  ${({ grid }) => grid && css`
+    align-self: flex-end;
+  `}
 `;
