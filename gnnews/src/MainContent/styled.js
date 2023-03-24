@@ -80,7 +80,8 @@ export const Text = styled.p`
 `;
 
 export const Heading = styled.h2`
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 500;
 
   @media (max-width: 700px) {
   font-size: 20px;
@@ -93,6 +94,7 @@ export const Heading = styled.h2`
 
 export const Title = styled.h2`
   font-size: 25px;
+  font-weight: 500;
   margin: 0;
 
   @media (max-width: 500px) {
