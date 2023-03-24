@@ -12,6 +12,12 @@ export const Wrapper = styled.div`
     margin-bottom: 120px;
     margin-top: 135px;
   }
+
+  ${({ grid }) => grid && css`
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    grid-template-rows: auto;
+  `}
 `;
 
 export const StyledLink = styled(Link)`
