@@ -2,7 +2,7 @@ import { Header } from './Header';
 import { GlobalStyle } from './GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectView } from './getData/newsSlice';
 import { Footer } from './Footer';
@@ -27,7 +27,10 @@ function App() {
             />
             <Route
               path="/"
-              element={<>sth</>}
+              element={
+                <Navigate
+                  to={"/country/pl"}
+                />}
             />
           </Routes>
           <Header />
