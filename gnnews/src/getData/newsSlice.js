@@ -6,7 +6,7 @@ export const newsSlice = createSlice({
     countryID: "pl",
     status: "",
     news: [],
-    view: "list"
+    view: ""
   },
   reducers: {
     fetchNews: (state, {payload: countryID}) => {
