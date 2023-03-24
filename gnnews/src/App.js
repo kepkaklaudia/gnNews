@@ -1,6 +1,7 @@
 import { GlobalStyle } from './GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
+import { Footer } from './Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         theme={theme}
       >
         <GlobalStyle />
+        <Footer />
       </ThemeProvider>
     </>
   );
