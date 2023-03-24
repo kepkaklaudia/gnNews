@@ -54,3 +54,9 @@ export const Image = styled.img`
   border-radius: 8px;
   margin-bottom: 10px;
 `;
+
+export const Info = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
