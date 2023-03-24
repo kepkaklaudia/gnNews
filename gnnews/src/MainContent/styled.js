@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Wrapper = styled.div`
@@ -18,6 +18,24 @@ export const Wrapper = styled.div`
     gap: 20px;
     grid-template-rows: auto;
   `}
+`;
+
+export const Container = styled.div`
+  display: flex;
+  gap: 10px;
+  background: ${({ theme }) => theme.colors.white};
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px 10px; 
+  box-shadow: 1px 1px 10px 0px ${({ theme }) => theme.colors.silver};
+  transition: transform 0.3s;
+  max-width: 1200px;
+  width: 100%;
+  min-width: 280px;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 export const StyledLink = styled(Link)`
