@@ -11,8 +11,13 @@ export const Countries = ({ onClick }) => (
         onClick={onClick}
       >
         <Wrapper>
-          <Image src={country.flag} alt="flag" />
-          <Name>{country.name}</Name>
+          <Image
+            src={country.flag}
+            alt="flag"
+          />
+          <Name>
+            {country.name}
+          </Name>
         </Wrapper>
       </StyledLink>
     )}
