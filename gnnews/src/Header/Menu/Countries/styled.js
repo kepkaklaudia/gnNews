@@ -38,3 +38,8 @@ export const Image = styled.img`
     width: 30px;
   }
 `;
+
+export const Name = styled.p`
+  margin: 0;
+  align-self: center;
+`;
