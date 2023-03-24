@@ -103,3 +103,10 @@ export const Title = styled.h2`
     font-size: 18px;
   }
 `;
+
+export const Description = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin-top: 10px;
+`;
