@@ -1,10 +1,11 @@
-import { Image, Wrapper, Text } from "./styled";
+import { Animation, Wrapper, Text } from "./styled";
 
 export const Error = () => {
   return (
     <Wrapper>
-      <Image />
-      <Text> Opps something went wrong
+      <Animation />
+      <Text>
+        Opps something went wrong
       </Text>
     </Wrapper>
   )
