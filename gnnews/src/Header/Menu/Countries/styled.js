@@ -19,6 +19,12 @@ export const Wrapper = styled.div`
   margin-top: 10px;
   padding: 15px 10px;
   width: 200px;
+  transition: transform 0.3s;
+
+  &:hover {
+    filter: brightness(104%);
+    transform: scale(1.05);
+  }
 `;
 
 export const Image = styled.img`
