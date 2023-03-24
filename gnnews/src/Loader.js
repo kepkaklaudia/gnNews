@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Loader = styled.div`
   width: 100px;
   height: 100px;
-  margin-top: 100px;
+  margin: 250px auto 0;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
   border-top: 7px solid ${({ theme }) => theme.colors.grey};
   border-right: 7px solid transparent;
   box-sizing: border-box;
@@ -38,7 +38,7 @@ export const Loader = styled.div`
 @media (max-width: 700px) {
   width: 70px;
   height: 70px;
-  margin-top: 50px;
+  margin-top: 200px;
 
   &::after {
     width: 70px;
