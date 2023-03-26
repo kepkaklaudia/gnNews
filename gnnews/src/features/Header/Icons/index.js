@@ -3,7 +3,7 @@ import { nanoid } from "@reduxjs/toolkit";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Icon, Wrapper } from "./styled";
 import { useDispatch, useSelector } from "react-redux";
-import { changeView, selectView } from "../../getData/newsSlice";
+import { changeView, selectView } from "./viewSlice";
 
 export const Icons = () => {
   const dispatch = useDispatch();

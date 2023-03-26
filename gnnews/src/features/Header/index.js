@@ -1,7 +1,7 @@
 import { Container, Logo, NavigationLink, Wrapper } from './styled';
 import { Menu } from './Menu';
 import logo from './gnnews.png';
-import { Alert } from './Alert';
+import { Popup } from './Popup';
 import { Icons } from './Icons';;
 
 export const Header = () => (
@@ -19,7 +19,7 @@ export const Header = () => (
     </Wrapper>
     <Wrapper>
       <Icons />
-      <Alert />
+      <Popup />
     </Wrapper>
   </Container>
 )

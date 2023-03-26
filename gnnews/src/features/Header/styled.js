@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { Button } from "react-bootstrap";
 
 export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.grey};
@@ -42,36 +41,5 @@ export const Logo = styled.img`
 
   @media (max-width: 700px) {
     height: 50px;
-  }
-`;
-
-export const StyledButton = styled(Button)`
-  background-color: ${({ theme }) => theme.colors.lemon};
-  border:  ${({ theme }) => theme.colors.lemon};
-  transition: 0.4s;
-  padding: 10px 20px;
-  margin: 0 20px;
-
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.white};
-    color: ${({ theme }) => theme.colors.grey};
-  }
-
-  @media (max-width: 700px) {
-    padding: 8px 15px;
-    margin: 0 10px;
-  }
-
-  &.btn-primary:active {
-    background-color: ${({ theme }) => theme.colors.white};
-    color: ${({ theme }) => theme.colors.grey};
-  }
-
-  &.btn:focus-visible {
-    background-color: ${({ theme }) => theme.colors.white};
-    color: ${({ theme }) => theme.colors.grey};
-    box-shadow: 
-      inset 1px 1px 1px ${({ theme }) => theme.colors.lemon},
-      1px 1px 1px ${({ theme }) => theme.colors.lemon};
   }
 `;
