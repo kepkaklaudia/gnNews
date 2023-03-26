@@ -1,7 +1,9 @@
 import { Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import { Text, Description, Title, StyledLink } from "./styled";
+import { Text } from "../styled";
+import { Description, Title } from "./styled";
+import { StyledLink } from "../../../common/StyledLink/styled";
 
-export const Details = ({ show, onHide, article }) => (
+export const Popup = ({ show, onHide, article }) => (
   <Modal
     size="lg"
     show={show === article.title}
@@ -33,6 +35,7 @@ export const Details = ({ show, onHide, article }) => (
           >
 
             <StyledLink
+              main
               to={article.url}
               target="_blank"
               rel="noopener noreferer"

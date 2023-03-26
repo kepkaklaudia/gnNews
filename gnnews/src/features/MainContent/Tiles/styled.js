@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Wrapper = styled.div`
   margin: 150px 40px 100px 40px;
@@ -38,16 +37,6 @@ export const Container = styled.div`
   }
 `;
 
-export const StyledLink = styled(Link)`
-  text-decoration: none;
-  color: ${({ theme }) => theme.colors.grey};
-  width: 100%;
-
-  &:hover {
-    color: ${({ theme }) => theme.colors.lemon};
-  }
-`;
-
 export const Image = styled.img`
   aspect-ratio: 3/2;
   width: 100%;
@@ -65,20 +54,6 @@ export const Info = styled.div`
   `}
 `;
 
-export const Text = styled.p`
-  margin: 0;
-  font-size: 16px;
-  word-break: break-word;
-
-  @media (max-width: 700px) {
-    font-size: 12px;
-  }
-
-  @media (max-width: 500px) {
-    font-size: 10px;
-  }
-`;
-
 export const Heading = styled.h2`
   font-size: 25px;
   font-weight: 500;
@@ -90,25 +65,4 @@ export const Heading = styled.h2`
   @media (max-width: 500px) {
     font-size: 15px;
   }
-`;
-
-export const Title = styled.h2`
-  font-size: 25px;
-  font-weight: 500;
-  margin: 0;
-
-  @media (max-width: 500px) {
-    font-size: 20px;
-  }
-
-  @media (max-width: 700px) {
-    font-size: 18px;
-  }
-`;
-
-export const Description = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-  margin-top: 10px;
 `;
