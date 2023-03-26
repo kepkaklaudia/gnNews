@@ -25,7 +25,8 @@ export const Text = styled.p`
   color: ${({ theme }) => theme.colors.lemon};
   margin: 0;
   font-size: 20px;
-
+  font-weight: 500;
+  
   @media (max-width: 700px) {
     font-size: 18px;
   }

@@ -1,7 +1,7 @@
 import { Container, Text } from './styled';
 import { Clock } from './Clock';
 import { useSelector } from 'react-redux';
-import { selectNews } from '../getData/newsSlice';
+import { selectNews } from '../../core/getData/newsSlice';
 
 export const Footer = () => {
   const { articles } = useSelector(selectNews);
