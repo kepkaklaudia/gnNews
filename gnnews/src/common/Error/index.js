@@ -5,7 +5,7 @@ export const Error = () => {
     <Wrapper>
       <Animation />
       <Text>
-        Opps something went wrong
+        Oops something went wrong...
       </Text>
     </Wrapper>
   )
