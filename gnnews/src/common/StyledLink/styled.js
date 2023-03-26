@@ -6,7 +6,7 @@ export const StyledLink = styled(Link)`
   color: ${({ theme }) => theme.colors.grey};
   
   ${({ main }) => main && css`
-  width: 100%;
+    width: 100%;
   `}
 
   &:hover {

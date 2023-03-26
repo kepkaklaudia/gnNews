@@ -35,7 +35,6 @@ export const Popup = ({ show, onHide, article }) => (
           >
 
             <StyledLink
-              main
               to={article.url}
               target="_blank"
               rel="noopener noreferer"

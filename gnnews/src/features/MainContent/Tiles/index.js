@@ -19,6 +19,7 @@ export const GridTiles = () => {
         <>
           <Container>
             <StyledLink
+              main
               onClick={() => setShow(article.title)}
             >
               <Image
@@ -59,6 +60,7 @@ export const ListTiles = () => {
         <>
           <Container>
             <StyledLink
+              main
               onClick={() => setShow(article.title)}
             >
               <Info>
