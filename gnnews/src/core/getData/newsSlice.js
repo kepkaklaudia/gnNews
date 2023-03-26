@@ -3,15 +3,14 @@ import { createSlice } from "@reduxjs/toolkit";
 export const newsSlice = createSlice({
   name: "news",
   initialState: {
-    countryID: "pl",
+    countryName: "poland",
     status: "",
     news: [],
-    view: "list"
   },
   reducers: {
-    fetchNews: (state, {payload: countryID}) => {
+    fetchNews: (state, {payload: countryName}) => {
       state.status = "loading";
-      state.countryID = countryID;
+      state.countryName = countryName;
     },
     fetchNewsSuccess: (state, {payload: news}) => {
       state.news = news;
@@ -20,20 +19,15 @@ export const newsSlice = createSlice({
     fetchError: state => {
       state.status = "error";
     },
-    changeView: (state, {payload: view}) => {
-      state.view = view;
-    },
   },
 });
 
-export const { fetchNews, fetchNewsSuccess, fetchError, changeView } = newsSlice.actions;
+export const { fetchNews, fetchNewsSuccess, fetchError } = newsSlice.actions;
 
 const selectState = state => state.news;
 
 export const selectNewsStatus = state => selectState(state).status;
 export const selectNews = state => selectState(state).news;
-export const selectCountryID = state => selectState(state).countryID;
-
-export const selectView = state => selectState(state).view;
+export const selectCountryName = state => selectState(state).countryName;
 
 export default newsSlice.reducer;
