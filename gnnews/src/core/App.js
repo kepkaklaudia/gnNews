@@ -1,13 +1,13 @@
-import { Header } from './Header';
-import { GlobalStyle } from './GlobalStyle';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './theme';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { selectView } from './getData/newsSlice';
-import { Footer } from './Footer';
-import { Grid, List } from './MainContent';
-import { Error } from './Error';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme';
+import { GlobalStyle } from './GlobalStyle';
+import { selectView } from "../features/Header/Icons/viewSlice";
+import { Grid, List } from '../features/MainContent';
+import { Error } from "../common/Error"
+import { Header } from "../features/Header";
+import { Footer } from "../features/Footer";
 
 function App() {
   const view = useSelector(selectView);
@@ -32,7 +32,7 @@ function App() {
               path="/"
               element={
                 <Navigate
-                  to={"/country/pl"}
+                  to={"/country/poland"}
                 />}
             />
             <Route path='*'
