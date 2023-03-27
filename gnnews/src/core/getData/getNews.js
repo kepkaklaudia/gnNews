@@ -1,15 +1,9 @@
 import axios from "axios";
-import { buildURL } from "./buildURL";
-import { API_KEY } from "./API_KEY"
+import { API_KEY } from "./API_KEY";
+import { selectedCountryShort } from "./findCountry";
 
 export const getNews = async ({ countryName }) => {
-  const response = await axios({
-    url: buildURL({ countryName }),
-    withCredentials: false,
-    headers: {
-      Authorization: API_KEY
-    }
-  })
+  const response = await axios(`https://newsapi.org/v2/top-headlines?country=${selectedCountryShort({ countryName })}&apiKey=${API_KEY}`)
 
   if (!response.ok) {
     new Error(response.statusText);
