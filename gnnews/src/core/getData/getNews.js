@@ -4,6 +4,7 @@ import { buildURL } from "./buildURL";
 export const getNews = async ({countryName}) => {
   const response = await axios({
     url: buildURL({countryName}),
+    withCredentials: false,
     headers: {
       Authorization: process.env.REACT_APP_API_KEY
     }
