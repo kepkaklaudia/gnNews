@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "https://newsapi.org/v2/top-headlines",
+    "secure": true,
+    "changeOrigin": true
+  }
+}
