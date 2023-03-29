@@ -1,9 +1,9 @@
-## <img src="public/favicon.ico" height="30"/> gnNews
+## <img src="/gnnews/public/favicon.ico" height="30"/> gnNews
 
-<img src="images/icons/logo.svg" height="15"/> Made by Klaudia Kępka
+<img src="/gnnews/images/icons/logo.svg" height="15"/> Made by Klaudia Kępka
 
-## <img src="images/icons/quick.png" height="20"/> Quick Preview
-![gifPreview](images/preview.gif)
+## <img src="/gnnews/images/icons/quick.png" height="20"/> Quick Preview
+![gifPreview](/gnnews/images/preview.gif)
 
 ## Input field
 In the field at the top of the page, you can enter the city where you want to check the weather conditions.
@@ -11,7 +11,7 @@ In the field at the top of the page, you can enter the city where you want to ch
 ## Responsive version
 The application adapts to the dimensions of the screen. The data is displayed correctly on both tablets and mobile phones.
 
-![gifResponsive](images/responsive.gif)
+![gifResponsive](/gnnews/images/responsive.gif)
 
 ## API Data
 News API Data are taken from [NewsAPI Website](https://newsapi.org/).
@@ -20,7 +20,7 @@ News API Data are taken from [NewsAPI Website](https://newsapi.org/).
 
 ## Error
 If the application fails to download data from the API, the user will be shown the appropriate information about the failure.
-![gifError](images/error.gif)
+![gifError](/gnnews/images/error.gif)
 
 ## Getting Started with Create React App
 
@@ -49,6 +49,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Technologies used
-<img src="images/icons/html.png" height="90"/> <img src="images/icons/es6.png" height="90"/> <img src="images/icons/react.png" height="90"/> <img src="images/icons/styled.png" height="90"/> <img src="images/icons/norm.png" height="90"/> <img src="images/icons/git.png" height="90"/> <img src="images/icons/api.png" height="90"/> <img src="images/icons/json.png" height="90"/> 
+<img src="/gnnews/images/icons/html.png" height="90"/> <img src="/gnnews/images/icons/es6.png" height="90"/> <img src="/gnnews/images/icons/react.png" height="90"/> <img src="/gnnews/images/icons/styled.png" height="90"/> <img src="/gnnews/images/icons/norm.png" height="90"/> <img src="/gnnews/images/icons/git.png" height="90"/> <img src="/gnnews/images/icons/api.png" height="90"/> <img src="/gnnews/images/icons/json.png" height="90"/> 
 
-<img src="images/icons/redux.png" height="90"/> <img src="images/icons/saga.png" height="90"/> <img src="images/icons/router.png" height="90"/> <img src="images/icons/toolkit.png" height="90"/> <img src="images/icons/bootstrap.png" height="90"/> <img src="images/icons/i18next.png" height="90"/>
+<img src="/gnnews/images/icons/redux.png" height="90"/> <img src="/gnnews/images/icons/saga.png" height="90"/> <img src="/gnnews/images/icons/router.png" height="90"/> <img src="/gnnews/images/icons/toolkit.png" height="90"/> <img src="/gnnews/images/icons/bootstrap.png" height="90"/> <img src="/gnnews/images/icons/i18next.png" height="90"/>
