@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { selectNews } from "../../../core/getData/newsSlice";
@@ -16,10 +17,12 @@ export const GridTiles = () => {
       grid
     >
       {news.articles && news.articles.map((article) => (
-        <>
+        <React.Fragment
+          key={article.title}
+        >
           <Container>
             <StyledLink
-              main
+              main="true"
               onClick={() => setShow(article.title)}
             >
               <Image
@@ -43,8 +46,11 @@ export const GridTiles = () => {
               </Text>
             </StyledLink>
           </Container>
-          <Popup show={show} article={article} onHide={() => setShow(false)} />
-        </>
+          <Popup show={show}
+            article={article}
+            onHide={() => setShow(false)}
+          />
+        </React.Fragment>
       ))}
     </Wrapper>
   )
@@ -57,10 +63,12 @@ export const ListTiles = () => {
   return (
     <Wrapper>
       {news.articles && news.articles.map((article) => (
-        <>
+        <React.Fragment
+          key={article.title}
+        >
           <Container>
             <StyledLink
-              main
+              main="true"
               onClick={() => setShow(article.title)}
             >
               <Info>
@@ -76,8 +84,11 @@ export const ListTiles = () => {
               </Heading>
             </StyledLink>
           </Container>
-          <Popup show={show} article={article} onHide={() => setShow(false)} />
-        </>
+          <Popup show={show}
+            article={article}
+            onHide={() => setShow(false)}
+          />
+        </React.Fragment>
       ))}
     </Wrapper>
   )
