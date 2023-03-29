@@ -13,7 +13,9 @@ The application adapts to the dimensions of the screen. The data is displayed co
 ## API Data
 News API Data are taken from [NewsAPI Website](https://newsapi.org/).
 
-❗This API is free for development purpose. You can run it only on your localhost. Remember to set API key in src/API_KEY.js.❗
+❗This API is free for development purpose.❗ 
+❗You can run it only on your localhost.❗
+❗Remember to set API key in src/API_KEY.js.❗
 
 ## Error
 If the application fails to download data from the API, the user will be shown the appropriate information about the failure.
