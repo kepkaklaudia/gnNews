@@ -4,9 +4,11 @@ import { countriesList } from "./countriesList";
 import { Image, Wrapper, Name } from "./styled";
 import { Loader } from "../../../../common/Loader/styled";
 import { StyledLink } from "../../../../common/StyledLink/styled"
+import { useTranslation } from 'react-i18next';
 
 export const Countries = ({ onClick }) => {
   const [status, setStatus] = useState("loading");
+  const { t } = useTranslation();
 
   useEffect(() => {
     setTimeout(() => {
@@ -18,7 +20,7 @@ export const Countries = ({ onClick }) => {
       {status === "loading" ? <Loader /> :
         countriesList.map((country) =>
           <StyledLink
-            to={`/country/${country.name.toLowerCase()}`}
+            to={`/country/${country.name.en.toLowerCase()}`}
             key={nanoid()}
             onClick={onClick}
           >
@@ -28,7 +30,7 @@ export const Countries = ({ onClick }) => {
                 alt="flag"
               />
               <Name>
-                {country.name}
+                {t("key") === "pl" ? country.name.pl : country.name.en}
               </Name>
             </Wrapper>
           </StyledLink>
