@@ -1,0 +1,18 @@
+{
+  "key": "en",
+  "offcanvasTitle": "Choose country",
+  "currentTime": "Current time: ",
+  "articlesNumber": "Number of articles: ",
+  "menuButton": "More",
+  "author": "Author: ",
+  "goToURL": "Go to URL",
+  "tooltip": "Open in a new tab",
+  "modalHeader": "Ups and downs",
+  "modalFirstHeading": "Time flies when you're having fun! 🥳",
+  "modalFirstSection": "I had the most fun working on the website design.",
+  "modalSecondSection": "My goal was to bring a smile to your face by taking care of the smallest detail. I would like you to feel the consistency between my website and your company",
+  "modalSecondHeading": "No pain, no gain! 🥵",
+  "modalThirdSection": "I haven't written an application in TypeScript because I don't know it well enough - I'm still learning!",
+  "modalFourthSection": "I didn't write the tests but I'm not giving up - that's my plan for the future!",
+  "error": "Oops! Something went wrong..."
+}

@@ -1,0 +1,18 @@
+{
+  "key": "pl",
+  "offcanvasTitle": "Wybierz kraj",
+  "currentTime": "Aktualny czas: ",
+  "articlesNumber": "Liczba artykułów: ",
+  "menuButton": "Więcej",
+  "autor": "Autor: ",
+  "goToURL": "Idź do URL",
+  "tooltip": "Otwórz w nowej karcie",
+  "modalHeader": "Wzloty i upadki",
+  "modalFirstHeading": "Czas ucieka gdy dobrze się bawisz! 🥳",
+  "modalFirstSection": "Najwięcej frajdy sprawiła mi praca nad projektem wyglądu strony internetowej.",
+  "modalSecondSection": "Moim celem było wywołanie uśmiechu na Twojej twarzy poprzez dbałość o najdrobniejszy szczegół. Chciałabym abyś poczuł spójność pomiędzy moją stroną a Twoją firmą",
+  "modalSecondHeading": "Bez pracy nie ma kołaczy! 🥵",
+  "modalThirdSection": "Nie napisałam aplikacji w TypeScript, ponieważ nie znam go wystarczająco dobrze – wciąż się uczę!",
+  "modalFourthSection": "Nie napisałam testów, ale nie poddaję się - to mój plan na przyszłość!",
+  "error": " Ups! Coś poszło nie tak..."
+}

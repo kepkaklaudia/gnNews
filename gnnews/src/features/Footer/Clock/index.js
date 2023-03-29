@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { useCurrentDate } from "./useCurrentDate";
 
 export const Clock = () => {
+  const { t } = useTranslation();
   const date = useCurrentDate();
   const formattedDate = date.toLocaleString("en", {
     hour: "2-digit",
@@ -10,7 +12,8 @@ export const Clock = () => {
 
   return (
     <>
-      Current time: {formattedDate}
+      {t("currentTime")}
+      {formattedDate}
     </>
   );
 };

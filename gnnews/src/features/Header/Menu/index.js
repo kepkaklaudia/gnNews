@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { StyledButton, StyledOffcanvas, Icon } from './styled';
 import { RxHamburgerMenu } from "react-icons/rx";
+import { useTranslation } from 'react-i18next';
+import { StyledButton, StyledOffcanvas, Icon } from './styled';
 import { Countries } from './Countries';
 
 export const Menu = () => {
   const [show, setShow] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -25,7 +27,7 @@ export const Menu = () => {
           closeButton
         >
           <Offcanvas.Title>
-            Choose country
+            {t("offcanvasTitle")}
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body >
