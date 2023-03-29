@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
@@ -28,6 +28,14 @@ export const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  ${({ details }) => details && css`
+    flex-direction: column;
+
+    @media (max-width: 700px) {
+      flex-direction: row;
+    }
+  `}
 `;
 
 export const NavigationLink = styled(NavLink)`
