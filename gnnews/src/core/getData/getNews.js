@@ -1,11 +1,12 @@
 import axios from "axios";
+import { API_KEY } from "../../API_KEY";
 import { buildURL } from "./buildURL";
 
-export const getNews = async ({countryName}) => {
+export const getNews = async ({ countryName }) => {
   const response = await axios({
-    url: buildURL({countryName}),
+    url: buildURL({ countryName }),
     headers: {
-      Authorization: process.env.REACT_APP_API_KEY
+      Authorization: API_KEY
     }
   })
 
