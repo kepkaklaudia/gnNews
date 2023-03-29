@@ -1,12 +1,9 @@
-## <img src="/gnnews/public/favicon.ico" height="30"/> gnNews
+## <img src="/gnnews/public/favicon.ico" height="20"/> gnNews
 
-<img src="/gnnews/images/icons/logo.svg" height="15"/> Made by Klaudia Kępka
+<img src="/gnnews/images/icons/logo.svg" height="18"/> Made by Klaudia Kępka
 
-## <img src="/gnnews/images/icons/quick.png" height="20"/> Quick Preview
+## <img src="/gnnews/images/icons/quick.png" height="25"/> Quick Preview
 ![gifPreview](/gnnews/images/preview.gif)
-
-## Input field
-In the field at the top of the page, you can enter the city where you want to check the weather conditions.
 
 ## Responsive version
 The application adapts to the dimensions of the screen. The data is displayed correctly on both tablets and mobile phones.
