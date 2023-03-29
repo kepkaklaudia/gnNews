@@ -9,11 +9,13 @@ export const Wrapper = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 40px;
-
+  margin-bottom: 100px;
+  padding: 0 40px;
+  
   @media (max-width: 700px) {
-    font-size: 30px;
+    font-size: 20px;
   }
 `;
 
