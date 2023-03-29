@@ -2,272 +2,488 @@ const flagURL = "https://newsapi.org/images/flags/"
 
 export const countriesList = [
 	{
-		name: "Argentina",
+		name:
+		{
+			en: "Argentina",
+			pl: "Argentyna"
+		},
 		flag: `${flagURL}ar.svg`,
 		short: "ar",
 	},
 	{
-		name: "Australia",
+		name:
+		{
+			en: "Australia",
+			pl: "Australia"
+		},
 		flag: `${flagURL}au.svg`,
 		short: "au",
 	},
 	{
-		name: "Austria",
+		name:
+		{
+			en: "Austria",
+			pl: "Austria"
+		},
 		flag: `${flagURL}at.svg`,
 		short: "at",
 	},
 	{
-		name: "Belgium",
+		name:
+		{
+			en: "Belgium",
+			pl: "Belgia"
+		},
 		flag: `${flagURL}be.svg`,
 		short: "be",
 	},
 	{
-		name: "Brazil",
+		name:
+		{
+			en: "Brazil",
+			pl: "Brazylia"
+		},
 		flag: `${flagURL}br.svg`,
 		short: "br",
 	},
 	{
-		name: "Bulgaria",
+		name:
+		{
+			en: "Bulgaria",
+			pl: "Bułgaria"
+		},
 		flag: `${flagURL}bg.svg`,
 		short: "bg",
 	},
 	{
-		name: "Canada",
+		name:
+		{
+			en: "Canada",
+			pl: "Kanada"
+		},
 		flag: `${flagURL}ca.svg`,
 		short: "ca",
 	},
 	{
-		name: "China",
+		name:
+		{
+			en: "China",
+			pl: "Chiny"
+		},
 		flag: `${flagURL}cn.svg`,
 		short: "cn",
 	},
 	{
-		name: "Colombia",
+		name:
+		{
+			en: "Colombia",
+			pl: "Kolumbia"
+		},
 		flag: `${flagURL}co.svg`,
 		short: "co",
 	},
 	{
-		name: "Cuba",
+		name:
+		{
+			en: "Cuba",
+			pl: "Kuba"
+		},
 		flag: `${flagURL}cu.svg`,
 		short: "cu",
 	},
 	{
-		name: "Czech Republic",
+		name:
+		{
+			en: "Czech Republic",
+			pl: "Czechy"
+		},
 		flag: `${flagURL}cz.svg`,
 		short: "cz",
 	},
 	{
-		name: "Egypt",
+		name:
+		{
+			en: "Egypt",
+			pl: "Egipt"
+		},
 		flag: `${flagURL}eg.svg`,
 		short: "eg",
 	},
 	{
-		name: "France",
+		name:
+		{
+			en: "France",
+			pl: "Francja"
+		},
 		flag: `${flagURL}fr.svg`,
 		short: "fr",
 	},
 	{
-		name: "Germany",
+		name:
+		{
+			en: "Germany",
+			pl: "Niemcy"
+		},
 		flag: `${flagURL}de.svg`,
 		short: "de",
 	},
 	{
-		name: "Greece",
+		name:
+		{
+			en: "Greece",
+			pl: "Grecja"
+		},
 		flag: `${flagURL}gr.svg`,
 		short: "gr",
 	},
 	{
-		name: "Hong Kong",
+		name:
+		{
+			en: "Hong Kong",
+			pl: "Hong Kong"
+		},
 		flag: `${flagURL}hk.svg`,
 		short: "hk",
 	},
 	{
-		name: "Hungary",
+		name:
+		{
+			en: "Hungary",
+			pl: "Węgry"
+		},
 		flag: `${flagURL}hu.svg`,
 		short: "hu",
 	},
 	{
-		name: "India",
+		name:
+		{
+			en: "India",
+			pl: "Indie"
+		},
 		flag: `${flagURL}in.svg`,
 		short: "in",
 	},
 	{
-		name: "Indonesia",
+		name:
+		{
+			en: "Indonesia",
+			pl: "Indonezja"
+		},
 		flag: `${flagURL}id.svg`,
 		short: "id",
 	},
 	{
-		name: "Ireland",
+		name:
+		{
+			en: "Ireland",
+			pl: "Irlandia"
+		},
 		flag: `${flagURL}ie.svg`,
 		short: "ie",
 	},
 	{
-		name: "Israel",
+		name:
+		{
+			en: "Israel",
+			pl: "Izrael"
+		},
 		flag: `${flagURL}il.svg`,
 		short: "il",
 	},
 	{
-		name: "Italy",
+		name:
+		{
+			en: "Italy",
+			pl: "Włochy"
+		},
 		flag: `${flagURL}it.svg`,
 		short: "it",
 	},
 	{
-		name: "Japan",
+		name:
+		{
+			en: "Japan",
+			pl: "Japonia"
+		},
 		flag: `${flagURL}jp.svg`,
 		short: "jp",
 	},
 	{
-		name: "Latvia",
+		name:
+		{
+			en: "Latvia",
+			pl: "Łotwa"
+		},
 		flag: `${flagURL}lv.svg`,
 		short: "lv",
 	},
 	{
-		name: "Lithuania",
+		name:
+		{
+			en: "Lithuania",
+			pl: "Litwa"
+		},
 		flag: `${flagURL}lt.svg`,
 		short: "lt",
 	},
 	{
-		name: "Malaysia",
+		name:
+		{
+			en: "Malaysia",
+			pl: "Malezja"
+		},
 		flag: `${flagURL}my.svg`,
 		short: "my",
 	},
 	{
-		name: "Mexico",
+		name:
+		{
+			en: "Mexico",
+			pl: "Meksyk"
+		},
 		flag: `${flagURL}mx.svg`,
 		short: "mx",
 	},
 	{
-		name: "Morocco",
+		name:
+		{
+			en: "Morocco",
+			pl: "Maroko"
+		},
 		flag: `${flagURL}ma.svg`,
 		short: "ma",
 	},
 	{
-		name: "Netherlands",
+		name:
+		{
+			en: "Netherlands",
+			pl: "Holandia"
+		},
 		flag: `${flagURL}nl.svg`,
 		short: "nl",
 	},
 	{
-		name: "New Zealand",
+		name:
+		{
+			en: "New Zealand",
+			pl: "Nowa Zelandia"
+		},
 		flag: `${flagURL}nz.svg`,
 		short: "nz",
 	},
 	{
-		name: "Nigeria",
+		name:
+		{
+			en: "Nigeria",
+			pl: "Nigeria"
+		},
 		flag: `${flagURL}ng.svg`,
 		short: "ng",
 	},
 	{
-		name: "Norway",
+		name:
+		{
+			en: "Norway",
+			pl: "Norwegia"
+		},
 		flag: `${flagURL}no.svg`,
 		short: "no",
 	},
 	{
-		name: "Philippines",
+		name:
+		{
+			en: "Philippines",
+			pl: "Filipiny"
+		},
 		flag: `${flagURL}ph.svg`,
 		short: "ph",
 	},
 	{
-		name: "Poland",
+		name:
+		{
+			en: "Poland",
+			pl: "Polska"
+		},
 		flag: `${flagURL}pl.svg`,
 		short: "pl",
 	},
 	{
-		name: "Portugal",
+		name:
+		{
+			en: "Portugal",
+			pl: "Portugalia"
+		},
 		flag: `${flagURL}pt.svg`,
 		short: "pt",
 	},
 	{
-		name: "Romania",
+		name:
+		{
+			en: "Romania",
+			pl: "Rumunia"
+		},
 		flag: `${flagURL}ro.svg`,
 		short: "ro",
 	},
 	{
-		name: "Russia",
+		name:
+		{
+			en: "Russia",
+			pl: "Rosja"
+		},
 		flag: `${flagURL}ru.svg`,
 		short: "ru",
 	},
 	{
-		name: "Saudi Arabia",
+		name:
+		{
+			en: "Saudi Arabia",
+			pl: "Arabia Saudyjska"
+		},
 		flag: `${flagURL}sa.svg`,
 		short: "sa",
 	},
 	{
-		name: "Serbia",
+		name:
+		{
+			en: "Serbia",
+			pl: "Serbia"
+		},
 		flag: `${flagURL}rs.svg`,
 		short: "rs",
 	},
 	{
-		name: "Singapore",
+		name:
+		{
+			en: "Singapore",
+			pl: "Singapur"
+		},
 		flag: `${flagURL}sg.svg`,
 		short: "sg",
 	},
 	{
-		name: "Slovakia",
+		name:
+		{
+			en: "Slovakia",
+			pl: "Słowacja"
+		},
 		flag: `${flagURL}sk.svg`,
 		short: "sk",
 	},
 	{
-		name: "Slovenia",
+		name:
+		{
+			en: "Slovenia",
+			pl: "Słowenia"
+		},
 		flag: `${flagURL}si.svg`,
 		short: "si",
 	},
 	{
-		name: "South Africa",
+		name:
+		{
+			en: "South Africa",
+			pl: "RPA"
+		},
 		flag: `${flagURL}za.svg`,
 		short: "za",
 	},
 	{
-		name: "South Korea",
+		name:
+		{
+			en: "South Korea",
+			pl: "Korea Południowa"
+		},
 		flag: `${flagURL}kr.svg`,
 		short: "kr",
 	},
 	{
-		name: "Sweden",
+		name:
+		{
+			en: "Sweden",
+			pl: "Szwecja"
+		},
 		flag: `${flagURL}se.svg`,
 		short: "se",
 	},
 	{
-		name: "Switzerland",
+		name:
+		{
+			en: "Switzerland",
+			pl: "Szwajcaria"
+		},
 		flag: `${flagURL}ch.svg`,
 		short: "ch",
 	},
 	{
-		name: "Taiwan",
+		name:
+		{
+			en: "Taiwan",
+			pl: "Tajwan"
+		},
 		flag: `${flagURL}tw.svg`,
 		short: "tw",
 	},
 	{
-		name: "Thailand",
+		name:
+		{
+			en: "Thailand",
+			pl: "Tajlandia"
+		},
 		flag: `${flagURL}th.svg`,
 		short: "th",
 	},
 	{
-		name: "Turkey",
+		name:
+		{
+			en: "Turkey",
+			pl: "Turcja"
+		},
 		flag: `${flagURL}tr.svg`,
 		short: "tr",
 	},
 	{
-		name: "UAE",
+		name:
+		{
+			en: "UAE",
+			pl: "ZEA"
+		},
 		flag: `${flagURL}ae.svg`,
 		short: "ae",
 	},
 	{
-		name: "Ukraine",
+		name:
+		{
+			en: "Ukraine",
+			pl: "Ukraina"
+		},
 		flag: `${flagURL}ua.svg`,
 		short: "ua",
 	},
 	{
-		name: "United Kingdom",
+		name:
+		{
+			en: "United Kingdom",
+			pl: "Wielka Brytania"
+		},
 		flag: `${flagURL}gb.svg`,
 		short: "gb",
 	},
 	{
-		name: "United States",
+		name:
+		{
+			en: "United States",
+			pl: "Stany Zjednoczone"
+		},
 		flag: `${flagURL}us.svg`,
 		short: "us",
 	},
 	{
-		name: "Venuzuela",
+		name:
+		{
+			en: "Venuzuela",
+			pl: "Wenezuela"
+		},
 		flag: `${flagURL}ve.svg`,
 		short: "ve",
 	},
