@@ -6,19 +6,21 @@
 ![gifPreview](/gnnews/images/preview.gif)
 
 ## Responsive version
-The application adapts to the dimensions of the screen. The data is displayed correctly on both tablets and mobile phones.
+The application adapts to the dimensions of the screen. <br />
+The data is displayed correctly on both tablets and mobile phones.
 
 ![gifResponsive](/gnnews/images/responsive.gif)
 
 ## API Data
 News API Data are taken from [NewsAPI Website](https://newsapi.org/).
 
-❗This API is free for development purpose.❗ 
-❗You can run it only on your localhost.❗
-❗Remember to set API key in src/API_KEY.js.❗
+❗This API is free for development purpose.❗ <br />
+❗You can run it only on your localhost.❗ <br />
+❗Remember to set API key in src/API_KEY.js.❗ <br />
 
 ## Error
-If the application fails to download data from the API, the user will be shown the appropriate information about the failure.
+If the application fails to download data from the API, <br />
+the user will be shown the appropriate information about the failure.
 ![gifError](/gnnews/images/error.gif)
 
 ## Getting Started with Create React App
