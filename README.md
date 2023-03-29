@@ -46,6 +46,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Technologies used
-<img src="/gnnews/images/icons/html.png" height="90"/> <img src="/gnnews/images/icons/es6.png" height="90"/> <img src="/gnnews/images/icons/react.png" height="90"/> <img src="/gnnews/images/icons/styled.png" height="90"/> <img src="/gnnews/images/icons/norm.png" height="90"/> <img src="/gnnews/images/icons/git.png" height="90"/> <img src="/gnnews/images/icons/api.png" height="90"/> <img src="/gnnews/images/icons/json.png" height="90"/> 
+<img src="/gnnews/images/icons/html.png" height="90"/> <img src="/gnnews/images/icons/es6.png" height="90"/> <img src="/gnnews/images/icons/react.png" height="90"/> <img src="/gnnews/images/icons/styled.png" height="90"/> <img src="/gnnews/images/icons/norm.png" height="90"/> <img src="/gnnews/images/icons/git.png" height="90"/> <img src="/gnnews/images/icons/api.png" height="90"/> 
 
-<img src="/gnnews/images/icons/redux.png" height="90"/> <img src="/gnnews/images/icons/saga.png" height="90"/> <img src="/gnnews/images/icons/router.png" height="90"/> <img src="/gnnews/images/icons/toolkit.png" height="90"/> <img src="/gnnews/images/icons/bootstrap.png" height="90"/> <img src="/gnnews/images/icons/i18next.png" height="90"/>
+<img src="/gnnews/images/icons/json.png" height="90"/> <img src="/gnnews/images/icons/redux.png" height="90"/> <img src="/gnnews/images/icons/saga.png" height="90"/> <img src="/gnnews/images/icons/router.png" height="90"/> <img src="/gnnews/images/icons/toolkit.png" height="90"/> <img src="/gnnews/images/icons/bootstrap.png" height="90"/> <img src="/gnnews/images/icons/i18next.png" height="90"/>
