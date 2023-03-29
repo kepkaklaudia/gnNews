@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+## <img src="public/favicon.ico" height="30"/> gnNews
+
+<img src="images/icons/logo.svg" height="15"/> Made by Klaudia Kępka
+
+## <img src="images/icons/quick.png" height="20"/> Quick Preview
+![gifPreview](images/preview.gif)
+
+## Input field
+In the field at the top of the page, you can enter the city where you want to check the weather conditions.
+
+## Responsive version
+The application adapts to the dimensions of the screen. The data is displayed correctly on both tablets and mobile phones.
+
+![gifResponsive](images/responsive.gif)
+
+## API Data
+News API Data are taken from [NewsAPI Website](https://newsapi.org/).
+
+❗This API is free for development purpose. You can run it only on your localhost. Remember to set API key in src/API_KEY.js.❗
+
+## Error
+If the application fails to download data from the API, the user will be shown the appropriate information about the failure.
+![gifError](images/error.gif)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,11 +38,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -29,42 +48,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies used
+<img src="images/icons/html.png" height="90"/> <img src="images/icons/es6.png" height="90"/> <img src="images/icons/react.png" height="90"/> <img src="images/icons/styled.png" height="90"/> <img src="images/icons/norm.png" height="90"/> <img src="images/icons/git.png" height="90"/> <img src="images/icons/api.png" height="90"/> <img src="images/icons/json.png" height="90"/> 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="images/icons/redux.png" height="90"/> <img src="images/icons/saga.png" height="90"/> <img src="images/icons/router.png" height="90"/> <img src="images/icons/toolkit.png" height="90"/> <img src="images/icons/bootstrap.png" height="90"/> <img src="images/icons/i18next.png" height="90"/>
